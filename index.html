@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Double Tick</title>
+
+        <!-- Bootstrap --> 
+        <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- CUSTOM CSS -->    
+        <link href="css/styles.css" rel="stylesheet">
+
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+    </head>
+    
+    <body>
+        
+        <div class="container">
+        
+            <div class="page-header">
+                <h1>Double Tick</h1>
+                <p class="lead">Shortlist all the things you want to do. We'll keep it simple and smart for you.</p>
+            </div>
+        </div>
+        
+        <div id="mainFrame" class="container">
+            <form class="form-group">
+                <label for="txtInput" id="lblInput"><h2>What next?</h2></label>
+                <input type="text" class="form-control" id="txtInput">
+                <button type="button" id="btnSubmit" class="btn btn-primary">Add to Double Tick!</button>
+            </form>
+        </div>
+        <div class="container">
+            <h3>Your Tasks</h3>
+        
+            <div id="counts" class="row">
+            
+                <div class="col-sm-3">
+                    <label id="lblPending">Pending&nbsp;&colon;&nbsp;<label id="countPending"></label></label>
+                </div>
+                
+                <div class="col-sm-3">
+                    <label id="lblCompleted">Completed&nbsp;&colon;&nbsp;<label id="countCompleted"></label></label>
+                </div>
+                
+                <div class="col-sm-3">
+                    <label id="lblRejected">Rejected&nbsp;&colon;&nbsp;<label id="countRejected"></label></label>
+                </div>
+                
+                <div class="col-sm-3">
+                    <label id="lblForLater">For later&nbsp;&colon;&nbsp;<label id="countForLater"></label></label>
+                </div>
+            </div>
+        
+        </div>
+        
+        <div id="list" class="container">
+            
+
+        </div>
+    
+    
+    
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js" ></script>
+    
+        <!-- JQuery Library -->
+        <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.js"><\/script>');</script>
+        
+        <!-- CUSTOM JQuery -->
+        <script src="js/script.js"></script>
+    </body>
+</html>

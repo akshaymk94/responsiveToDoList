@@ -1,0 +1,92 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    background: #eee;
+}
+
+.container {
+    background: #fff;
+}
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-size: 64px;
+    letter-spacing: -2px;
+    font-weight: bolder;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+}
+
+.page-header p {
+    text-align: center;
+    
+}
+
+#btnSubmit {
+    margin: 10px 0;
+    font-weight: bold;
+    -webkit-border-radius: 20px;
+}
+
+#counts {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.newLi {
+    border: solid 1px #ddd;
+    -webkit-border-radius: 10px;
+}
+
+.taskHolder {
+    height: 100%;
+    padding: 0;
+    -webkit-border-radius: 10px;
+}
+
+.taskName {
+    padding: 6px 10px;
+    /*border: solid 1px green;*/
+    background: #eee;
+    -webkit-border-radius: 10px 0 0 10px;
+}
+
+#list {
+    /*border: solid 1px brown;*/
+    
+}
+
+#newTaskContainer {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    border: solid 1px black;
+    -webkit-border-radius: 10px;
+    
+    /*background: grey;*/
+    
+}
+
+#cardOne {
+    
+    /*-webkit-border-radius: 10px;*/
+}
+
+.taskStatus {
+    padding: 7px;
+}
+
+.btnDelete {
+    padding: 7px;
+    border: solid 1px red;
+}
