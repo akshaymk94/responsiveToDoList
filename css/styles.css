@@ -17,9 +17,15 @@ h1 {
     font-size: 64px;
     letter-spacing: -2px;
     font-weight: bolder;
+    color: #288C00;
 }
 
 h2 {
+    font-weight: bold;
+}
+
+.lead {
+    color: #424242;
     font-weight: bold;
 }
 
@@ -44,7 +50,7 @@ h3 {
 }
 
 .newLi {
-    border: solid 1px #ddd;
+    border: solid 1px #fc3;
     -webkit-border-radius: 10px;
 }
 
@@ -57,14 +63,25 @@ h3 {
 .taskName {
     padding: 6px 10px;
     /*border: solid 1px green;*/
-    background: #eee;
+    background: #fc3;;
     -webkit-border-radius: 10px 0 0 10px;
+}
+
+.li:hover {
+    cursor: pointer;
 }
 
 #list {
     /*border: solid 1px brown;*/
+    padding: 10px 0;
     
 }
+
+#list section {
+    margin: 10px 0;
+    
+}
+
 
 #newTaskContainer {
     margin-bottom: 10px;
@@ -77,16 +94,48 @@ h3 {
     
 }
 
-#cardOne {
-    
-    /*-webkit-border-radius: 10px;*/
-}
-
 .taskStatus {
     padding: 7px;
 }
 
 .btnDelete {
-    padding: 7px;
-    border: solid 1px red;
+    padding: 9px;
+    background: #ccc;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    background: #ff3939;
+}
+
+.cardTwo {
+    /*border: solid 1px purple;*/
+    padding: 0 5px;
+    margin-bottom: 10px;
+}
+
+.inputUpdate {
+    padding: 0;
+}
+
+@media only screen and ( max-width:568px ) {
+    
+    .page-header {
+        margin: 10px 0;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 42px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+    .lead {
+        margin: 10px;
+        font-size: 14px;
+    }
+    
+    
 }
